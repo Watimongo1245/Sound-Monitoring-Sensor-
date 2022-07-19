@@ -1,3 +1,9 @@
+/*
+This code is meant to record I2S data from a mems microphone (SPH0645) and 
+record it to the SD card. However, It did not record any sound and the esp32 
+microcontroller kept rebooting all the time. 
+*/
+
 #include "driver/i2s.h"
 #include "FS.h"
 #include "SD.h"
